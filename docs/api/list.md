@@ -3,9 +3,9 @@
 ## 查询接口 (GET)
 !> 查询接口请求方式统一使用`GET`方式
 
-| 内容       | url                  | 参数 |
-| --         | --                   | --   |
-| 后台菜单栏 | `/api/v1/moduleList` | ---  |
+| 内容       | url                  |method| 参数 |
+| --         | --                   |--|     --   |
+| 后台右边菜单栏 | `/api/v1/moduleList` |`GET`|  ---  |
 
 After the `init` is complete, you can see the file list in the `./docs` subdirectory.
 
