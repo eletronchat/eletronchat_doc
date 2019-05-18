@@ -1,11 +1,10 @@
 # 后台接口列表
 
-## 查询接口 (GET)
-!> 查询接口请求方式统一使用`GET`方式
+!> 接口遵守`REST`规范
 
-| 内容       | url                  |method| 参数 |
-| --         | --                   |--|     --   |
-| 后台右边菜单栏 | `/api/v1/moduleList` |`GET`|  ---  |
+| 内容               | url                  | method | 参数 |
+| --                 | --                   | --     | --   |
+| 查询后台右边菜单栏 | `/api/v1/moduleList` | `GET`  | ---  |
 
 After the `init` is complete, you can see the file list in the `./docs` subdirectory.
 

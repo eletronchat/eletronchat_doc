@@ -4,6 +4,7 @@
 
 - 接口v1
   - [后台接口列表](api/list.md)
+  - [状态码表](api/status.md)
 
 - 数据库设计
   - [权限验证表](database/auth.md)
