@@ -3,6 +3,7 @@
   - [权限验证](validate/auth.md)
 
 - 接口v1
+  - [声明规范](api/introduce.md)
   - [后台接口列表](api/list.md)
   - [状态码表](api/status.md)
 
