@@ -1,0 +1,8 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wuchuheng/eletronchat_doc.git",
+  "author": "wuchuheng <wuchuheng@163.com>",
+  "license": "MIT"
+}
