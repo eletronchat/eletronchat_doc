@@ -12,3 +12,5 @@
 - 数据库设计
   - [权限验证表](database/auth.md)
   - [客服分组表](database/gmember.md)
+- 完善事项 
+  - [bug记录](plan/bugs.md)
