@@ -1,7 +1,7 @@
 - [开发规范]
   - [命名规范](dev/specification)
 
-- [验证层](validate/index.md)
+- [验证层]
   - [权限验证](validate/auth.md)
 
 - 接口v1
