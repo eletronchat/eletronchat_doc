@@ -14,6 +14,7 @@
   - [客服分组表](database/gmember.md)
 - 前端消息子线程分发处理
   - [说明](font_end_message/desc.md)
+  - [消息通信数据格式](font_end_message/des_format.md)
 - 完善事项 
   - [bug记录](plan/bugs.md)
  
