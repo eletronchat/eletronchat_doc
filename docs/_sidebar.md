@@ -1,4 +1,5 @@
 - [开发规范]
+  - [整体架构](dev/framework.md)
   - [命名规范](dev/specification)
 
 - [验证层]
