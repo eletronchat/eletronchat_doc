@@ -1,4 +1,4 @@
-- [开发规范]
+- [开发布局]
   - [整体架构](dev/framework.md)
   - [命名规范](dev/specification)
 
