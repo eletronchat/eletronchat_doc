@@ -16,6 +16,8 @@
 
 - 数据缓存
   - [数据的分类](cache/categary.md)
+- 消息路由 
+  - [说明](message/route.md)
 
 - 前端消息子线程分发处理
   - [说明](font_end_message/desc.md)
