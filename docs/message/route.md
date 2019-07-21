@@ -8,5 +8,5 @@
 
 | 路由                                 | 对应的服务 | 业务层名 | 备注 |
 | ---                                  | ---        | ---      | ---  |
-| `/service/connect/guest/<client_id>` | 新客户连接 | 连接层   |      |
 | `/local/chat/index/message/onlineList` |  客服工作台聊天用户在线列表 |   客服工作台   |      |
+| `/service/connect/guest/<client_id>` | 来自服务器连接层的新连接 | 连接层   |    用于告知前台的在线客服新客户上门   |
