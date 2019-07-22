@@ -2,3 +2,27 @@
 # yarn lockfile v1
 
 
+docsify-plantuml@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/docsify-plantuml/-/docsify-plantuml-1.2.2.tgz#1c8248ae1572435f3d3710e1436ce04b8267c483"
+  integrity sha512-zDl7FJQMBmIf7s1uFZlqI96Dn51f6x+9Yfunz6yEHE5Qp8KwKxPs9KgM5S2gaDSrX9NKETyWPA/SOa0PhrukfQ==
+  dependencies:
+    plantuml-encoder "^1.2.5"
+
+pako@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.3.tgz#5f515b0c6722e1982920ae8005eacb0b7ca73ccf"
+  integrity sha1-X1FbDGci4ZgpIK6ABerLC3ynPM8=
+
+plantuml-encoder@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/plantuml-encoder/-/plantuml-encoder-1.2.5.tgz#6b8e5b9e1a1dbd88b3fd9fb46f734eec7d44b548"
+  integrity sha512-viV7Sz+BJNX/sC3iyebh2VfLyAZKuu3+JuBs2ISms8+zoTGwPqwk3/WEDw/zROmGAJ/xD4sNd8zsBw/YmTo7ng==
+  dependencies:
+    pako "1.0.3"
+    utf8-bytes "0.0.1"
+
+utf8-bytes@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/utf8-bytes/-/utf8-bytes-0.0.1.tgz#116b025448c9b500081cdfbf1f4d6c6c37d8837d"
+  integrity sha1-EWsCVEjJtQAIHN+/H01sbDfYg30=

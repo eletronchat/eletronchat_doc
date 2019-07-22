@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:wuchuheng/eletronchat_doc.git",
   "author": "wuchuheng <wuchuheng@163.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "docsify-plantuml": "^1.2.2"
+  }
 }
