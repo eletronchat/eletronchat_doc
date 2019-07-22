@@ -109,7 +109,7 @@ Guest客户处理类 o-> Guest: 有空闲座席，对接成功
 Guest客户处理类 -> Guest客户处理类:无空闲座席，进入等待队列
 destroy Guest客户处理类
 
-Guest客户处理类 --> 打杂进程类: 打杂的，收集这个客户信息并持久化
+Guest客户处理类 --> 打杂监听进程类: 打杂的，收集这个客户信息并持久化
 
 Guest客户处理类 -> Guest: 当前正在等待人数为n人
 deactivate Guest客户处理类
