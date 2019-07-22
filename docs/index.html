@@ -11,15 +11,18 @@
 <body>
   <div id="app"></div>
   <script>
-      window.$docsify = {
-          name: '',
-          repo: '',
-          subMaxLevel: 2,
-          loadSidebar: true,
-          plantuml: {
-              skin: 'default',
-          }
-      }
+    window.$docsify = {
+        name: '',
+        repo: '',
+        subMaxLevel: 2,
+        loadSidebar: true,
+        plantuml: {
+            skin: 'default',
+        }
+    }
+    if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js')
+    }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
