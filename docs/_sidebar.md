@@ -6,6 +6,8 @@
   - [命名规范](dev/specification.md)
   - [整体架构](dev/framework.md)
 
+- 数据的缓存与持久化
+  - [数据的缓存](data/cache.md)
 - 验证层
 
   - [权限验证](validate/auth.md)
