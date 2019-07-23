@@ -95,8 +95,10 @@ Guest->Event业务处理层:http请求建立websocket连接
 activate Guest #FFBBBB
 activate Event业务处理层
 
+note left: 客户发起websocket连接请求
 Event业务处理层->Event业务处理层:当前是否有客服当值
 activate Event业务处理层 #DarkSalmon
+
 
 Event业务处理层 o-> Guest客户处理类:有客服当值，请求对接
 activate Guest客户处理类
