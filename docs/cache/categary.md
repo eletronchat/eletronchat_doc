@@ -8,7 +8,7 @@
 数据库[3] 存各种消息处理队列   
   > * &nbsp;客户等待队列 (waiting_guest_queue) (存client_id, 指向数据库1)   
   > * &nbsp;客户错过队列 (guest_be_missing) (存client_id, 指向数据库1) 当客户连接时没人在客服工作台工作中就放入这里。
-  > * &nbsp;客户座席队列(chat_waiting_group)  
+  > * &nbsp;客户座席队列(chat_waiting__queue)  
   > * &nbsp;客户当前正在聊天的用户(hash) 记录用户的座席和用户,离开后把坐席入队    
   > * &nbsp;当前在客服线集合 chat_servers_online (uid 集合)   
   > * ~~&nbsp;保存客户设备指纹(hash) key: guest_fingerprints column: $finger_prints  value: uid~~ 
