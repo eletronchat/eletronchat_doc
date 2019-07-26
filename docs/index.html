@@ -18,7 +18,12 @@
         loadSidebar: true,
         plantuml: {
             skin: 'default',
-        }
+        },
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md',
+            '/.*/_navbar.md': '/_navbar.md'
+        },
+        loadNavbar: true
     }
     if (typeof navigator.serviceWorker !== 'undefined') {
         navigator.serviceWorker.register('sw.js')
